@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                background-color: skyblue;
+                border: 2px solid steelblue;
+                width: 375px;
+            }
+            h6{
+                font-style: italic;
+            }
+            span{
+                color: red;
+            }
+            .text {
+                font-style: italic;
+            }
+            fieldset{
+                border: none;
+                text-align: right;
+                font-style: normal;
+            }
+        </style>
+    </head>
+    <body>
+        <form >
+            <div>
+            <h1>Get In Touch!</h1>
+            <h6>Fill out our super swanky HTML5 contact from below to get in touch with us!
+			.Please provide as much information as possible for us to help you with your enquiry :)</h6>
+            Name: <span>*</span> <br>
+            <input type="text" autofocus required>
+            <br>
+            Email Address : <span>*</span> <br>
+            <input class="text" type="email" placeholder="abc@gmail.com" required>
+            <br>
+            Telephone: <br>
+            <input type="number">
+            <br>
+            Enquiry: <br>
+            <input type="text " list="enq">
+            <datalist id="enq">
+                <option value="General"></option>
+                <option value="Technical"></option>
+            </datalist>
+            <br>
+            Message: <span>*</span> <br>
+            <textarea class="text" cols="48" rows="10" placeholder="Your message must be greater than 20 characters"></textarea>
+            <span>*</span>  indicates a required field 
+            <fieldset>
+                <input type="submit" value="Holla!">
+            </fieldset>
+        </div>
+        </form>
+    </body>
+</html>

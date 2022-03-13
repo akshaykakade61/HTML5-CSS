@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color:darkgray;
+            }
+            div{
+                border-radius: 5px;
+                padding: 5px;
+                margin: 5px;
+            }
+            input{
+                border-radius: 25px;
+            }
+            span{
+                color: olive;
+                text-decoration: underline;
+            }
+            fieldset{
+                width: 300px;
+                border-radius: 25px;
+                background-color:#282C2F ;
+            }
+            #acc{
+                text-align: right;
+                padding: 5px;
+                margin: 5px;
+                border: none;
+
+            }
+            header{
+                text-align: center;
+                color: white;
+                font-weight: bold;
+            }
+            #sub{
+                background-color: olive;
+            }
+        </style>
+    </head>
+    <body>
+
+        <form >
+            <fieldset>
+                <header>Create an Account</header>
+            <div>
+                <input type="text" placeholder="Name">
+            </div>
+            <div>
+                <input type="number" placeholder="Phone number">
+            </div>
+            <div>
+                <input type="Email" placeholder="Email">
+            </div>
+            <div>
+                <input type="password" placeholder="Password">
+            </div>
+            <input type="checkbox" required>I agree to the <span> Terms and Conditions</span> and <span> Privacy Policy </span>
+            <br>
+            <fieldset id="acc">
+            <input  id ="sub" type="submit" value="Create Account" >
+        </fieldset>
+        </fieldset>
+        </form>
+    </body>
+</html>
